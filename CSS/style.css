@@ -1,0 +1,143 @@
+html{
+  background-color: rgba(14, 14, 14, 0.966);
+  margin: 0%;
+  overflow: hidden;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container1{
+  display: flex;
+  flex-wrap: wrap;                  /*contenedor flex para los primeros 4 cuadros*/
+  align-content: flex-start;
+  width: 100%;
+  height: 40%;
+  gap: 10px;                    /*el gap es para darle espacio a cada uno */
+  margin: 20px;
+
+}
+.container2{
+  display: flex;
+  flex-wrap: wrap;              /*segundo contenedor con las mismas propiedades*/
+  align-content: flex-start;
+  width: 100%;
+  height: 40%;
+  gap: 10px;
+  margin: 20px;
+}
+.opciones{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;      /*Tercer contenedor para los iconos */
+  width: 100%;
+  gap: 30px;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.item1{
+  background-color: rgba(48, 48, 48, 0.836);
+  border-radius: 10px;                              /*propiedades de la caja del contenedor 1 donde se define*/
+  width: 24%;                                     /*Cuanto mide y cuanto ocupara de ancho cada uno*/
+  height: 240px;
+}
+
+.item2{
+  background-color: rgba(48, 48, 48, 0.836);
+  border-radius: 10px;
+  width: 32.3%;                                     /*propiedades de las cajas del segundo contenedor*/
+  height: 295px;
+}
+
+.inicial{
+  width: 45%;
+  height: 55%;
+  border-radius: 50%;                     /*propiedades de la letra en la mitad*/
+  margin: 0 auto;
+  text-align: center;
+  font-size: 60px;
+  position: relative;                   /*aca uso position relative para ajustar la letra */
+  bottom: 15%;
+  color: whitesmoke;
+}
+
+
+.inicial2{
+  width: 40%;
+  height: 55%;
+  border-radius: 50%;                 /*propiedades de las letras del segundo container*/
+  margin: 0 auto;
+  text-align: center;
+  font-size: 80px;      
+  position: relative;                  /*con las mismas cualidades*/
+  bottom: 15%;
+  color: whitesmoke;
+}
+p{                                     /*no sabia como centrar la inicial en el circulo*/
+  position: relative;                 /*entonces use la eitqueta p y lo movi con position relative*/
+  top: 20%;
+}
+
+.nombre{
+  position: relative;
+  bottom: 0%;
+  left: 1%;                     /*el nombre del participante tambien lo ajuste con position relative */
+  font-size: 15px;
+  color: whitesmoke;
+}
+
+.opciones .rojo{
+  background-color: red;
+  width: 25px;                  /*ajustes de los iconos en rojo*/
+  height: 25px;
+}
+.opciones .rojo:hover{
+  background-color: rgb(155, 1, 1);
+}
+
+.opciones svg{
+  background-color: rgba(48, 48, 48, 0.836);
+  width: 25px;
+  height: 25px;                     /*Ajustes de todos los iconos en general*/
+  padding: 10px;
+  border-radius: 50%;
+}
+.opciones svg:hover{
+  background-color: rgba(63, 63, 63, 0.836);
+}
+
+.item1 svg, .item2 svg{
+  width: 25px;
+  height: 25px;
+  color: whitesmoke;                    /*ajustes de los iconos de los microfonos en los contenedores*/
+  background-color: rgba(63, 63, 63, 0.836) ;
+  border-radius: 50%;
+  position: relative;                     /*aca tambien use position relative para ajustar el elemento*/
+  left: 92%;
+  top: 3%
+}
+.item1 svg:hover, .item2 svg:hover{
+  background-color: rgb(32, 32, 32);
+}
+
+#uno{
+ background-color: rgba(150, 198, 218, 0.966);
+}
+#dos{
+background-color: rgba(173, 19, 91, 0.877);
+}
+#tres{
+background-color: rgb(168, 0, 0);
+}
+#cuatro{
+background-color: rgb(1, 54, 1);
+}
+#cinco{
+background-color: rgb(197, 139, 197);
+}
+#seis{
+background-color: rgb(235, 184, 166);
+}
+#siete{
+  background-color: rgb(73, 28, 10);
+
+}
